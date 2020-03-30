@@ -1,0 +1,35 @@
+//새로운 항목을 입력하는 컴포넌트, state를 통해 인풋 상태관리
+.TodoInsert{
+        display: flex;
+        background: #2d3233;
+    input{
+        background: none;
+        outline: none;
+        border: none;
+        padding: 0.5rem;
+        font-size: 1.125rem;
+        line-height: 1.5;
+        color: white;
+        &::placeholder{
+            color: #dee2e6;
+                      }
+        flex: 1;
+         }
+    button{
+        background: none;
+        outline: none;
+        border: none;
+        background: #5c94cc;
+        color: black;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.1s background ease-in;
+      &:hover {
+        background: #e7e8ee;
+              }
+    }
+}
